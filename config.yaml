@@ -1,0 +1,16 @@
+remove:
+- '.exe$'
+- ^.gitignore$
+- ^go.sum$
+move:
+- '_test.go$'
+- 'config.go$'
+- ^config.ini$
+src: D:\tmp\sipserver
+backup: D:\tmp\sipserver_backup
+setup: D:\tmp\sipserver_setup
+move_cpy: D:\tmp\sipserver_mov
+releasecpy: D:\tmp\sipserver_release
+ignore:
+- .git
+- web
